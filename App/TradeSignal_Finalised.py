@@ -25,8 +25,7 @@ st.image("https://www.wealthandfinance-news.com/wp-content/webp-express/webp-ima
 st.title("Determine trade signals based upon MACD traces")
 
 st.write('''
-		 This app takes your stock ticker and provides you with a summary of the MACD signal
-		 by.
+		 This app takes your stock ticker and provides you with a summary of the MACD signal.		 
 		 ''')
 
 
