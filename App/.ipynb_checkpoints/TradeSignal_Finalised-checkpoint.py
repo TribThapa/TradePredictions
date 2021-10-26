@@ -19,7 +19,7 @@ import yfinance as yf
 import vectorbt as vbt
 
 # GIF
-st.image("Trading.gif", width=None)
+#st.image("Trading.gif", width=None)
 
 st.title("Determine trade signals based upon MACD traces")
 
