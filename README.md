@@ -41,7 +41,7 @@ Our project aimed to determine BUY-SELL signals for any stock listed on the US S
 
 ![TradeSignal](https://github.com/MishQ666/ProjectTwo-Alpha-Analysts/blob/main/Image/AMZN_MACDSig_Indv.JPG)
 
-- Here, is that [MACD App](https://drive.google.com/drive/folders/1abuvNk-AlsIswHqVwza9GbKKlGb1UYDL) you can use to determine your BUY-SELL signal for any stock listed on the US Stock Exchange.
+- Here, is that [MACD App](https://share.streamlit.io/tribthapa/tradepredictions/main/App/TradeSignal_Finalised.py) you can use to determine your BUY-SELL signal for any stock listed on the US Stock Exchange.
 
 
 <p>&nbsp;</p>
