@@ -439,7 +439,7 @@ if ticker_symbol:
     # Total profit earned from holding stock. Timeframe 3 months
     for ticker in stock_name:
 
-        price = vbt.YFData.download(ticker, start='2020-01-01').get('Close')
+        price = vbt.YFData.download(ticker, start='2021-01-01').get('Close')
 
         portfolio = vbt.Portfolio.from_holding(price,
                                                init_cash = init_cash)
