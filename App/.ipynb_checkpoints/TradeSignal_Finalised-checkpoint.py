@@ -20,6 +20,7 @@ import vectorbt as vbt
 
 # GIF
 #st.image("Trading.gif", width=None)
+st.write("Test.jpg", width=None)
 
 st.title("Determine trade signals based upon MACD traces")
 
