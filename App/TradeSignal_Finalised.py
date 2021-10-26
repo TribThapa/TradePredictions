@@ -20,7 +20,8 @@ import vectorbt as vbt
 
 # GIF
 #st.image("Trading.gif", width=None)
-st.image("https://www.wealthandfinance-news.com/wp-content/webp-express/webp-images/uploads/2020/10/stocks.jpg.webp")
+#st.image("https://www.wealthandfinance-news.com/wp-content/webp-express/webp-images/uploads/2020/10/stocks.jpg.webp")
+st.image("https://gfycat.com/understatedreflectingiberianemeraldlizard")
 
 st.title("Determine trade signals based upon MACD traces")
 
