@@ -446,7 +446,7 @@ if ticker_symbol:
 
     portfolio.total_profit() 
 
-    st.header(f"With an inital investment of ${init_cash} in this stock, your total profit of just holding the stock from 2020-01-01 will be ${portfolio.total_profit():.2f}")
+    st.header(f"With an inital investment of ${init_cash} in this stock, your total profit of just holding the stock from 2021-01-01 will be ${portfolio.total_profit():.2f}")
     
     total_profit = []
 
