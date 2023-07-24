@@ -19,8 +19,8 @@ import yfinance as yf
 import vectorbt as vbt
 
 # GIF
-#st.image("Trading.gif", width=None)
-st.image("https://gfycat.com/liquidmasculinebluebottlejellyfish")
+img = Image.open("TradeImg.png") # this file must be inside the Streamlit folder directory!
+st.image(img, width=None)
 
 st.title("Determine trade signals based upon MACD traces")
 
