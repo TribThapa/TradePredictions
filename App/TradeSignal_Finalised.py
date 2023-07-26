@@ -461,4 +461,4 @@ if ticker_symbol:
         # Total profit
         total_profit.append(portfolio.total_profit())
 
-    st.write(f"With an inital investment of $ {init_cash} in this stock, the total profit of trading based upon MACD signals will be $ {sum(total_profit):.2f}")
+    st.write(f"With an inital investment of {init_cash} in this stock, the total profit of trading based upon MACD signals will be {sum(total_profit):.2f}")
