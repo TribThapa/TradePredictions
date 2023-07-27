@@ -112,6 +112,7 @@ In conclusion, MACD prices are good indicators to generate BUY-SELL signals. How
 - [Time-series Analysis 1](https://towardsdatascience.com/identifying-ar-and-ma-terms-using-acf-and-pacf-plots-in-time-series-forecasting-ccb9fd073db8)
 - [Time-series Analysis 2](https://towardsdatascience.com/a-real-world-time-series-data-analysis-and-forecasting-121f4552a87)
 - [ACF v PACF](https://people.duke.edu/~rnau/411arim3.htm)
+- [ARIMA explanation](https://ademos.people.uic.edu/Chapter23.html#4_determining_stationarity)
 - [Google Colab](https://drive.google.com/drive/folders/1abuvNk-AlsIswHqVwza9GbKKlGb1UYDL)
 - [ScikitLearn](https://scikit-learn.org/stable/)
 - [Matplotlib](https://matplotlib.org/)
@@ -119,6 +120,7 @@ In conclusion, MACD prices are good indicators to generate BUY-SELL signals. How
 - [Yfinance](https://pypi.org/project/yfinance/)
 - [Vectorbt](https://vectorbt.dev/)
 - [Quantstats](https://www.youtube.com/watch?v=gsS3JxPXXvg)
+  
 
 
 
