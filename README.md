@@ -34,6 +34,13 @@ Our project aimed to determine BUY-SELL signals for any stock listed on the US S
 
     - q represents the number of preceding/lagged values for the error term that are added/subtracted to Y. This captures the “moving average” part of ARIMA.
 
+- The next step is to determine values for p and q in the ARIMA(p,d,q) model:
+- To do so, you need to examine the autocorrelation plot (ACF) and the partical autocorrelation (PACF) plot of the stationary time series.
+    - ACF: correlates a variable at time t and that same variable at time t-k
+    - PACF: correlates a variable at time t and that same variable at time t-k only. It excludes mutual correlations between t & t-k with other variables. 
+
+<p>&nbsp;</p>
+
 <p align="center">
     	<img src="/Image/ARIMA_Table.png" width="300" height="300">
 </p>
