@@ -28,6 +28,12 @@ Our project aimed to determine BUY-SELL signals for any stock listed on the US S
         - the rate of change of the growth/decline in the data is accounted for (hence the “integrated” part)
         - noise between consecutive time points is accounted for (hence the “moving average” part)
 
+- ARIMA models are typically expressed like “ARIMA(p,d,q)”, with the three terms p, d, and q defined as follows:
+    - p means the number of preceding (“lagged”) Y values that have to be added/subtracted to Y in the model, so as to make better predictions based on local periods of growth/decline in our data. This captures the “autoregressive” nature of ARIMA.
+    - d represents the number of times that the data have to be “differenced” to produce a stationary signal (i.e., a signal that has a constant mean over time). This captures the “integrated” nature of ARIMA. If d=0, this means that our data does not tend to go up/down in the long term (i.e., the model is already stationary”). In this case, then technically you are performing just ARMA, not AR-I-MA. If p is 1, then it means that the data is going up/down linearly. If p is 2, then it means that the data is going up/down exponentially. More on this below…
+
+    - q represents the number of preceding/lagged values for the error term that are added/subtracted to Y. This captures the “moving average” part of ARIMA.
+
 <p align="center">
     	<img src="/Image/ARIMA_Table.png" width="300" height="300">
 </p>
