@@ -65,7 +65,7 @@ Our project aimed to determine BUY-SELL signals for any stock listed on the US S
 
 <p>&nbsp;</p>
  
-Besides, we also used Classification and Regression machine learning models to train and predict stock prices:
+Besides, we also used Regression and Classification machine learning models to train and predict stock prices:
 
 Regression models:
 - Regression
