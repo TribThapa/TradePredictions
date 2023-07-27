@@ -21,6 +21,12 @@ Our project aimed to determine BUY-SELL signals for any stock listed on the US S
 ## Project description
 
 - TimeSeries analysis was used to forecast the close price for any stock 5-days into the future
+- We used the ARIMA model where:
+    - ARIMA stands for auto-regressive integrated moving average.
+    - It’s a way of modelling time series data for forecasting (i.e., for predicting future points in the series), in such a way that:
+        - a pattern of growth/decline in the data is accounted for (hence the “auto-regressive” part)
+        - the rate of change of the growth/decline in the data is accounted for (hence the “integrated” part)
+        - noise between consecutive time points is accounted for (hence the “moving average” part)
 
 <p align="center">
     	<img src="/Image/ARIMA_Table.png" width="300" height="300">
